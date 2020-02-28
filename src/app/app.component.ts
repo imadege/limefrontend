@@ -69,6 +69,10 @@ export class AppComponent implements OnInit, AfterViewInit {
     const behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 
     this.addAccommodationMarkers(map)
+
+    map.addEventListener('resize', function() {
+      map.getViewPort().resize();
+    })
   }
 
   public addAccommodationMarkers(map: any) {

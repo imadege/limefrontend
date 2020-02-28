@@ -280,16 +280,15 @@ svg#clouds {
   }
 }
 
+.
+
 @media screen and (max-width: 575px) {
   svg#rocket-smoke {
     display: none;
     visibility: hidden;
   }
 
-  .map-section {
-    width: 600px;
-    height: 480px;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -300,7 +299,6 @@ svg#clouds {
     width: 480px;
     height: 600px;
   }
-
   .overlay {
     bottom:12%;
     margin:5px;
@@ -312,6 +310,72 @@ svg#clouds {
     padding: 10px;
     overflow-x: auto;
   }
+
+}
+
+@media screen and (max-width: 320px) {
+  .topnav {
+    width: 100% ;
+  }
+  .map-section {
+    width: 320px;
+    height: 600px;
+  }
+  .overlay {
+    bottom:12%;
+    margin:5px;
+    z-index:1;
+    position:absolute;
+    left:10%;
+    right: 10%;
+    background: white;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .topnav {
+    width: 100% ;
+  }
+  .map-section {
+    width: 400px;
+    height: 600px;
+  }
+  .overlay {
+    bottom:12%;
+    margin:5px;
+    z-index:1;
+    position:absolute;
+    left:10%;
+    right: 10%;
+    background: white;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  .topnav {
+    width: 100% ;
+  }
+  .map-section {
+    width: 370px;
+    height: 600px;
+  }
+  .overlay {
+    bottom:12%;
+    margin:5px;
+    z-index:1;
+    position:absolute;
+    left:10%;
+    right: 10%;
+    background: white;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
 }
 
 .overlay {
