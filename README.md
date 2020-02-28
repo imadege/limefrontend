@@ -1,6 +1,6 @@
 # Frontend for Lime
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Please view this on 480px potrait i havent opitimized  yet for any larger screen
 
 ## Requirements 
     `Nodejs  version 12 and above`
