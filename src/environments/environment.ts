@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  hereMapApikey: 'caRk7gqWFe2cKSDRpWWF',
+  hereMapApiSecret: 'n2ePldhCID1axEv2JhYQLrGjwYa5BhZ10EywOitlKC8',
+  hereMapPLacesApi: 'https://places.sit.ls.hereapi.com/places/v1/discover/explore',
+  defaultCenterLat: 48.137154,
+  defaultCenterLng: 11.576124
 };
 
 /*
